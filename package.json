@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --colors test/**/*.spec.js"
+    "test": "mocha --colors test/**/*.spec.js",
+    "serve-gs": "http-server globalscopebrowser",
+    "serve-gs2": "http-server globalscope/browser"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +15,8 @@
     "eslint": "^5.8.0",
     "expect.js": "^0.3.1",
     "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "http-server": "^0.11.1"
   }
 }
